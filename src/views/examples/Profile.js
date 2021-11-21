@@ -66,11 +66,12 @@ const Profile = () => {
                         className="btn-icon-only rounded-circle ml-1"
                         color="facebook"
                         href="https://www.facebook.com/LayosaDesigners"
-                        id="tooltip495507257"
+                        id="tooltip4955072570"
                         target="_blank"
                       >
                         <span className="btn-inner--icon">
-                        <ion-icon name="logo-facebook"></ion-icon>                        </span>
+                          <ion-icon name="logo-facebook"></ion-icon>{" "}
+                        </span>
                       </Button>
 
                       <Button
