@@ -1,7 +1,9 @@
 import React, { Fragment, useEffect } from "react";
+import CardsFooter from "./examples/CardsFooter.js";
 import DemoNavbar from "./examples/DemoNavbar.js";
 import Landing from "./examples/Landing.js";
 import Profile from "./examples/Profile.js";
+import SimpleFooter from "./examples/SimpleFooter.js";
 
 const Index = () => {
 
@@ -14,6 +16,7 @@ const Index = () => {
       <DemoNavbar />
       <Profile />
       <Landing />
+      <CardsFooter />
     </Fragment>
   );
 };

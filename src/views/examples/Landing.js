@@ -23,7 +23,7 @@ const Landing = () => {
                   <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                     <ion-icon name="cog"></ion-icon>
                   </div>
-                  <h3>Technical Explosure</h3>
+                  <h3>Our Services</h3>
 
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
@@ -34,11 +34,7 @@ const Landing = () => {
                           </Badge>
                         </div>
                         <div>
-                          <h6 className="mb-0">Web Development</h6>
-                          <small>
-                            React, Angular, Node.js, JavaScript, Typescript,
-                            Html, Css
-                          </small>
+                          <h6 className="mb-0">Modern House Planing</h6>
                         </div>
                       </div>
                     </li>
@@ -50,8 +46,7 @@ const Landing = () => {
                           </Badge>
                         </div>
                         <div>
-                          <h6 className="mb-0">Mobile Development</h6>
-                          <small> Flutter </small>
+                          <h6 className="mb-0">2D Floor Plan Design</h6>
                         </div>
                       </div>
                     </li>
@@ -63,8 +58,7 @@ const Landing = () => {
                           </Badge>
                         </div>
                         <div>
-                          <h6 className="mb-0">Cloud technologies</h6>
-                          <small> AWS </small>
+                          <h6 className="mb-0">3D Design</h6>
                         </div>
                       </div>
                     </li>
@@ -76,8 +70,7 @@ const Landing = () => {
                           </Badge>
                         </div>
                         <div>
-                          <h6 className="mb-0">Databases</h6>
-                          <small> MySql, Mongodb, Firebase </small>
+                          <h6 className="mb-0">BOQ Estimation</h6>
                         </div>
                       </div>
                     </li>
@@ -89,8 +82,7 @@ const Landing = () => {
                           </Badge>
                         </div>
                         <div>
-                          <h6 className="mb-0">Version Controlling</h6>
-                          <small> Git, GitHub </small>
+                          <h6 className="mb-0">Council Approval Plans</h6>
                         </div>
                       </div>
                     </li>
@@ -102,8 +94,21 @@ const Landing = () => {
                           </Badge>
                         </div>
                         <div>
-                          <h6 className="mb-0">Other Skills</h6>
-                          <small> Leadership, Interpersonal Skills </small>
+                          <h6 className="mb-0">Electrical Layout Design</h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge className="badge-circle mr-3" color="success">
+                            <i className="ni ni-satisfied" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">
+                            All Type Of Construction Works
+                          </h6>
                         </div>
                       </div>
                     </li>
@@ -118,13 +123,17 @@ const Landing = () => {
           <Container className="pt-lg pb-300">
             <Row className="text-center justify-content-center">
               <Col lg="10">
-                <h2 className="display-3 text-white">Education</h2>
+                <h2 className="display-3 text-white">Our Misition</h2>
                 <p className="lead text-white">
-                  In school days I attended to 3 schools, I do my primary
-                  eduation at Biyagama junior school. After that I able to join
-                  colombo Asoka College For my OL's and I able to join Colombo
-                  Ananda college for my AL's. Then for my higher educations I
-                  able to join Institute of Technology University Of Moratuwa.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae
+                  cum dixisset, finem ille. Primum divisit ineleganter; Urgent
+                  tamen et nihil remittunt. Quid est igitur, inquit, quod
+                  requiras? Eaedem res maneant alio modo. Duo Reges: constructio
+                  interrete. Sed ad rem redeamus; Tollitur beneficium, tollitur
+                  gratia, quae sunt vincla concordiae. Immo alio genere;
+                  Respondeat totidem verbis. Deprehensus omnem poenam contemnet.
+                  Quid ergo? Vestri haec verecundius, illi fortasse constantius.
+                  Quae cum dixisset, finem ille.
                 </p>
               </Col>
             </Row>
