@@ -21,7 +21,7 @@ const Landing = () => {
               <Col className="order-md-1" md="6">
                 <div className="pr-md-5">
                   <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                    <i className="ni ni-settings-gear-65" />
+                    <ion-icon name="cog"></ion-icon>
                   </div>
                   <h3>Technical Explosure</h3>
 

@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useRef } from "react";
 
 // reactstrap components
 import { Button, Card, Container, Row, Col } from "reactstrap";
-
+import me from "../../assets/img/layosa.jpg";
 
 const Profile = () => {
   const mainRef = useRef();
@@ -53,7 +53,7 @@ const Profile = () => {
                   <Col className="order-lg-2" lg="3">
                     <div className="card-profile-image">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img alt="..." className="rounded-circle" src={"me"} />
+                        <img alt="..." className="rounded-circle" src={me} />
                       </a>
                     </div>
                   </Col>
@@ -64,53 +64,49 @@ const Profile = () => {
                     <div className="card-profile-actions py-4 mt-lg-0">
                       <Button
                         className="btn-icon-only rounded-circle ml-1"
-                        color="github"
-                        href="https://github.com/thilina4321"
+                        color="facebook"
+                        href="https://www.facebook.com/LayosaDesigners"
                         id="tooltip495507257"
                         target="_blank"
                       >
                         <span className="btn-inner--icon">
-                          <i className="fa fa-github" />
-                        </span>
+                        <ion-icon name="logo-facebook"></ion-icon>                        </span>
                       </Button>
 
                       <Button
                         className="float-right"
                         color="default"
-                        href="https://www.linkedin.com/in/thilina-dilshan/"
+                        href="mailto:layosadesigners@email.com"
                         size="sm"
                         target="_blank"
                       >
-                        Message
+                        Connect
                       </Button>
                     </div>
                   </Col>
                 </Row>
                 <div className="text-center mt-5">
-                  <h3>
-                    Thilina Dilshan
-                    <span className="font-weight-light">, {age}</span>
-                  </h3>
-                  <div className="h6 font-weight-300">
-                    <i className="ni location_pin mr-2" />
-                    Biyagama, Mabima
-                  </div>
+                  <h3>LAYOSA DESIGNERS</h3>
+
                   <div className="h6 mt-4">
                     <i className="ni business_briefcase-24 mr-2" />
-                    Software Developer
-                  </div>
-                  <div>
-                    <i className="ni education_hat mr-2" />
-                    Institute of Technology University of Moratuwa
+                    Make Your Dream House Architecturally In One Place
                   </div>
                 </div>
                 <div className="mt-5 py-5 border-top text-center">
                   <Row className="justify-content-center">
                     <Col lg="9">
                       <p>
-                        I am a passinate, hard working and self motivated
-                        software developer with hands on experience in software
-                        development areas like web and mobile development.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Quae cum dixisset, finem ille. Primum divisit
+                        ineleganter; Urgent tamen et nihil remittunt. Quid est
+                        igitur, inquit, quod requiras? Eaedem res maneant alio
+                        modo. Duo Reges: constructio interrete. Sed ad rem
+                        redeamus; Tollitur beneficium, tollitur gratia, quae
+                        sunt vincla concordiae. Immo alio genere; Respondeat
+                        totidem verbis. Deprehensus omnem poenam contemnet. Quid
+                        ergo? Vestri haec verecundius, illi fortasse
+                        constantius. Quae cum dixisset, finem ille.
                       </p>
                     </Col>
                   </Row>

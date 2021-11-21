@@ -12036,7 +12036,9 @@ a.btn-icon-only {
     position: relative; }
     .profile-page .card-profile .card-profile-image img {
       max-width: 180px;
-      border-radius: 0.25rem;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
       transform: translate(-50%, -30%);
       position: absolute;
       left: 50%;

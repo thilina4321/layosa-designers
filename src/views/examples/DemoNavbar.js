@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
+import logo from "../../assets/img/layosa.png";
 import Headroom from "headroom.js";
 // reactstrap components
 import {
@@ -12,6 +13,7 @@ import {
   Container,
   Row,
   Col,
+  NavbarBrand,
 } from "reactstrap";
 
 const DemoNavbar = () => {
@@ -39,6 +41,9 @@ const DemoNavbar = () => {
           id="navbar-main"
         >
           <Container>
+            <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              Layosa
+            </NavbarBrand>
             <button className="navbar-toggler" id="navbar_global">
               <span className="navbar-toggler-icon" />
             </button>
@@ -68,28 +73,21 @@ const DemoNavbar = () => {
                 <UncontrolledDropdown nav>
                   <DropdownToggle nav>
                     <i className="ni ni-ui-04 d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Skill</span>
+                    <span className="nav-link-inner--text">About Us</span>
                   </DropdownToggle>
                 </UncontrolledDropdown>
 
                 <UncontrolledDropdown nav>
                   <DropdownToggle nav>
                     <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Education</span>
+                    <span className="nav-link-inner--text">Our Service</span>
                   </DropdownToggle>
                 </UncontrolledDropdown>
 
                 <UncontrolledDropdown nav>
                   <DropdownToggle nav>
                     <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Projects</span>
-                  </DropdownToggle>
-                </UncontrolledDropdown>
-
-                <UncontrolledDropdown nav>
-                  <DropdownToggle nav>
-                    <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Contact Me</span>
+                    <span className="nav-link-inner--text">Contact Us</span>
                   </DropdownToggle>
                 </UncontrolledDropdown>
               </Nav>
