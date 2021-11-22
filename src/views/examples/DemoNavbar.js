@@ -69,21 +69,14 @@ const DemoNavbar = () => {
               </div>
               <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                 <UncontrolledDropdown nav>
-                  <DropdownToggle nav>
-                    <i className="ni ni-ui-04 d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">About Us</span>
-                  </DropdownToggle>
-                </UncontrolledDropdown>
-
-                <UncontrolledDropdown nav>
-                  <DropdownToggle nav>
+                  <DropdownToggle nav to="/our-works" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Our Service</span>
+                    <span className="nav-link-inner--text">Our Works</span>
                   </DropdownToggle>
                 </UncontrolledDropdown>
 
                 <UncontrolledDropdown nav>
-                  <DropdownToggle nav>
+                  <DropdownToggle nav to="/contact-us" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
                     <span className="nav-link-inner--text">Contact Us</span>
                   </DropdownToggle>

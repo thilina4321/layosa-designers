@@ -12,11 +12,6 @@ const Profile = () => {
     mainRef.current.scrollTop = 0;
   }, []);
 
-  const birthYear = 1997;
-
-  const currentYear = new Date().getFullYear();
-  const age = currentYear - birthYear;
-
   return (
     <Fragment>
       <main className="profile-page" ref={mainRef}>

@@ -1,12 +1,9 @@
 import React, { Fragment, useEffect } from "react";
 import CardsFooter from "./examples/CardsFooter.js";
 import DemoNavbar from "./examples/DemoNavbar.js";
-import Landing from "./examples/Landing.js";
-import Profile from "./examples/Profile.js";
-import TabsSection from "./examples/Tabs.js";
+import WorkProfile from "./examples/WorkProfile.js";
 
-const Index = () => {
-
+const OurWorks = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -14,11 +11,10 @@ const Index = () => {
   return (
     <Fragment>
       <DemoNavbar />
-      <Profile />
-      <Landing />
+      <WorkProfile />
       <CardsFooter />
     </Fragment>
   );
 };
 
-export default Index;
+export default OurWorks;

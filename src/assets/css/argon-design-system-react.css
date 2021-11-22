@@ -11362,8 +11362,13 @@ button.section-darker:focus {
     margin-bottom: -200px !important; }
   .mt--300 {
     margin-top: -300px !important; }
-  .mb--300 {
+  .mt--300 {
     margin-bottom: -300px !important; }
+  .mt--500 {
+    margin-top: -500px !important; }
+  .mb--500 {
+    margin-bottom: -500px !important; }
+  
   .pt-100 {
     padding-top: 100px !important; }
   .pb-100 {
