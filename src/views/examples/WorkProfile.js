@@ -1,8 +1,6 @@
 import React, { Fragment, useEffect, useRef } from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
-import me from "../../assets/img/layosa.jpg";
 import CardExampleCard from "./Card";
 
 const WorkProfile = () => {
@@ -13,7 +11,26 @@ const WorkProfile = () => {
     mainRef.current.scrollTop = 0;
   }, []);
 
-  const cards = [1, 1, 2, 3];
+  const cards = [
+    {
+      name:'Matthew',
+      joined:'2015',
+      description:'Matthew is a lead living in Nashville.',
+      friends:'22'
+    },
+    {
+      name:'Palo',
+      joined:'2022',
+      description:'Palo is a designer living in Colombo.',
+      friends:'12'
+    },
+    {
+      name:'Nooshine',
+      joined:'2018',
+      description:'Nooshine is a developer living in Australia',
+      friends:'30'
+    },
+];
 
   return (
     <Fragment>
@@ -36,17 +53,22 @@ const WorkProfile = () => {
           </div>
         </section>
         <section
-          className="mt--300"
           style={{
             display: "flex",
             flexWrap: "wrap",
             width: "80%",
             margin: "auto",
             gap: "20px",
+            marginTop : '-200px',
+            justifyContent : 'center',
+            alignItems: 'center'
+
           }}
         >
           {cards.map((card, index) => (
-            <CardExampleCard key={index} />
+            <CardExampleCard 
+            {...card}
+            key={index} />
           ))}
         </section>
       </main>
