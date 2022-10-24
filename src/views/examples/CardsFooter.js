@@ -3,7 +3,6 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
   Card,
   CardImg,
   NavItem,
@@ -13,6 +12,7 @@ import {
   Row,
   Col,
   UncontrolledTooltip,
+  Button
 } from "reactstrap";
 
 const CardsFooter = () => {
@@ -31,6 +31,7 @@ const CardsFooter = () => {
             </Col>
             <Col className="text-lg-center btn-wrapper" lg="6">
               <Button
+                
                 className="btn-icon-only rounded-circle"
                 color="twitter"
                 id="tooltip475038074"

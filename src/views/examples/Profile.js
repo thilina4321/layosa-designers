@@ -92,17 +92,12 @@ const Profile = () => {
                 <div className="mt-5 py-5 border-top text-center">
                   <Row className="justify-content-center">
                     <Col lg="9">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quae cum dixisset, finem ille. Primum divisit
-                        ineleganter; Urgent tamen et nihil remittunt. Quid est
-                        igitur, inquit, quod requiras? Eaedem res maneant alio
-                        modo. Duo Reges: constructio interrete. Sed ad rem
-                        redeamus; Tollitur beneficium, tollitur gratia, quae
-                        sunt vincla concordiae. Immo alio genere; Respondeat
-                        totidem verbis. Deprehensus omnem poenam contemnet. Quid
-                        ergo? Vestri haec verecundius, illi fortasse
-                        constantius. Quae cum dixisset, finem ille.
+                      <p style={{fontSize:'14px'}}>
+                      Layosa is an excellent minds putting manufacturers on the path toward the competitive edge.
+
+Engineers. Designers. Fabricators. Electricians. Programmers. A team of geniuses fueled by your ideas.
+
+We’re more than the sum of our parts, but these parts are damn good.
                       </p>
                     </Col>
                   </Row>

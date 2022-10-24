@@ -123,17 +123,10 @@ const Landing = () => {
           <Container className="pt-lg pb-300">
             <Row className="text-center justify-content-center">
               <Col lg="10">
-                <h2 className="display-3 text-white">Our Misition</h2>
+                <h2 className="display-3 text-white">Our Focus</h2>
                 <p className="lead text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae
-                  cum dixisset, finem ille. Primum divisit ineleganter; Urgent
-                  tamen et nihil remittunt. Quid est igitur, inquit, quod
-                  requiras? Eaedem res maneant alio modo. Duo Reges: constructio
-                  interrete. Sed ad rem redeamus; Tollitur beneficium, tollitur
-                  gratia, quae sunt vincla concordiae. Immo alio genere;
-                  Respondeat totidem verbis. Deprehensus omnem poenam contemnet.
-                  Quid ergo? Vestri haec verecundius, illi fortasse constantius.
-                  Quae cum dixisset, finem ille.
+                Layosa brings people together to build strong, resilient and eye catching, designs. Through United Way, communities tackle tough challenges and work with every partners to boost education, economic, and health resources.
+                We design your dreams.
                 </p>
               </Col>
             </Row>

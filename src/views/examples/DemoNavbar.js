@@ -71,16 +71,11 @@ const DemoNavbar = () => {
                 <UncontrolledDropdown nav>
                   <DropdownToggle nav to="/our-works" tag={Link}>
                     <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Our Works</span>
+                    <span style={{fontSize:'14px'}} className="nav-link-inner--text">Our People</span>
                   </DropdownToggle>
                 </UncontrolledDropdown>
 
-                <UncontrolledDropdown nav>
-                  <DropdownToggle nav to="/contact-us" tag={Link}>
-                    <i className="ni ni-collection d-lg-none mr-1" />
-                    <span className="nav-link-inner--text">Contact Us</span>
-                  </DropdownToggle>
-                </UncontrolledDropdown>
+                
               </Nav>
             </UncontrolledCollapse>
           </Container>
